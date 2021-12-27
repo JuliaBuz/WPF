@@ -1,0 +1,15 @@
+﻿<Application x:Class="BuzuevaWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BuzuevaWPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="SteelBlue"/>
+            <Setter Property="Foreground" Value="black"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="reklama">
+            <Setter Property="Background" Value="SteelBlue"/>
+        </Style>
+    </Application.Resources>
+</Application>
